@@ -46,7 +46,7 @@ app.get('/*.js',(req, res, next)=>
 
 app.use(express.static(__dirname + '/public'));//local
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 80;
 app.listen(port, function(){
   console.log('server: 8080');
 });
